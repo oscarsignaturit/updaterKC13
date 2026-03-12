@@ -1,0 +1,6 @@
+@updaterKC13_HostAddress = http://localhost:7217
+
+GET {{updaterKC13_HostAddress}}/api/product/check-update?version=12.8.2
+Accept: application/json
+
+###
