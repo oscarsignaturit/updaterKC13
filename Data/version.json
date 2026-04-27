@@ -1,32 +1,32 @@
-﻿{
-  "product": "KeyController",
-  "current": {
-    "version": "13.0.0",
-    "date": "2025-12-01",
-    "mandatory": false,
-    "download": {
-      "url": "https://downloads.ivsdriver.com/keycontroller/KeyController-13.0.0.exe",
-      "fileSize": 52428800,
-      "sha256": "PUT_SHA256_HASH_HERE"
+{
+  "Product": "KeyController",
+  "Current": {
+    "Version": "13.0.0",
+    "Date": "2025-12-01T00:00:00",
+    "Mandatory": false,
+    "Download": {
+      "Url": "https://localhost:7217/downloads/KeyControllerSetup-13.0.0.0.exe",
+      "FileSize": 211577632,
+      "Sha256": "47bcc9311ae82a48e6b7e7fea78a160802ab6d106a87c1e7d18942c3e2015cb8"
     },
-    "changelog": {
-      "features": [
+    "Changelog": {
+      "Features": [
         "Added integration with external signing service",
         "Support for multiple user profiles"
       ],
-      "improvements": [
+      "Improvements": [
         "Faster startup time",
         "Improved update notification UX"
       ],
-      "fixes": [
+      "Fixes": [
         "Fixed error when renewing certificates",
         "Fixed sporadic crash on application shutdown"
       ]
     },
-    "links": {
-      "documentation": "https://ivsdriver.com/resources/keycontroller",
-      "releaseNotes": "https://ivsdriver.com/resources/keycontroller#13-0-0"
+    "Links": {
+      "Documentation": "https://ivsdriver.com/resources/keycontroller",
+      "ReleaseNotes": "https://ivsdriver.com/resources/keycontroller#13-0-0"
     }
   },
-  "history": []
+  "History": []
 }
